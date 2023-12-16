@@ -357,7 +357,7 @@ importers:
     devDependencies:
       eslint: 8.31.0
       eslint-config-prettier: 8.6.0_eslint@8.31.0
-      eslint-config-turbo: 1.10.15_eslint@8.31.0
+      eslint-config-turbo: 1.11.2_eslint@8.31.0
       eslint-plugin-react: 7.31.8_eslint@8.31.0
       typescript: 4.9.4
 
@@ -404,7 +404,7 @@ importers:
       '@octokit/request': ^6.2.5
       '@octokit/request-error': ^4.0.1
       '@octokit/types': ^9.2.3
-      '@octokit/webhooks': ^10.4.0
+      '@octokit/webhooks': ^10.9.2
       '@octokit/webhooks-types': ^6.10.0
       '@trigger.dev/integration-kit': workspace:^2.2.0
       '@trigger.dev/sdk': workspace:^2.2.0
@@ -417,7 +417,7 @@ importers:
     dependencies:
       '@octokit/request': 6.2.5
       '@octokit/request-error': 4.0.1
-      '@octokit/webhooks': 10.5.1
+      '@octokit/webhooks': 10.9.2
       '@trigger.dev/integration-kit': link:../../packages/integration-kit
       '@trigger.dev/sdk': link:../../packages/trigger-sdk
       octokit: 2.0.14
@@ -8278,7 +8278,7 @@ packages:
       '@octokit/oauth-app': 4.2.0
       '@octokit/plugin-paginate-rest': 6.0.0_@octokit+core@4.2.0
       '@octokit/types': 9.2.3
-      '@octokit/webhooks': 10.5.1
+      '@octokit/webhooks': 10.9.2
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -8529,17 +8529,17 @@ packages:
     resolution: {integrity: sha512-lDNv83BeEyxxukdQ0UttiUXawk9+6DkdjjFtm2GFED+24IQhTVaoSbwV9vWWKONyGLzRmCQqZmoEWkDhkEmPlw==}
     dev: true
 
-  /@octokit/webhooks-types/6.7.0:
-    resolution: {integrity: sha512-bykm7UkSnxmb2uhSfcLM1Pity/LQ6ZBSdzy9HU0vXjR+2g+tzlmRhXb7Go8oj0TlgO+vDrTivGXju6zkzOGKjA==}
+  /@octokit/webhooks-types/6.11.0:
+    resolution: {integrity: sha512-AanzbulOHljrku1NGfafxdpTCfw2ENaWzH01N2vqQM+cUFbk868Cgh0xylz0JIM9BoKbfI++bdD6EYX0Q/UTEw==}
     dev: false
 
-  /@octokit/webhooks/10.5.1:
-    resolution: {integrity: sha512-6yGcfVbQGIkRm/vlU4Ld4r0YNOT6ly5Kp+t6R3UAT0amxGASFtZLzOJry0UQfvvidCxK5qT9jHXU0QUp6alatA==}
+  /@octokit/webhooks/10.9.2:
+    resolution: {integrity: sha512-hFVF/szz4l/Y/GQdKxNmQjUke0XJXK986p+ucIlubTGVPVtVtup5G1jarQfvCMBs9Fvlf9dvH8K83E4lefmofQ==}
     engines: {node: '>= 14'}
     dependencies:
       '@octokit/request-error': 3.0.3
       '@octokit/webhooks-methods': 3.0.2
-      '@octokit/webhooks-types': 6.7.0
+      '@octokit/webhooks-types': 6.11.0
       aggregate-error: 3.1.0
     dev: false
 
@@ -18779,13 +18779,13 @@ packages:
       eslint: 8.45.0
     dev: true
 
-  /eslint-config-turbo/1.10.15_eslint@8.31.0:
-    resolution: {integrity: sha512-76mpx2x818JZE26euen14utYcFDxOahZ9NaWA+6Xa4pY2ezVKVschuOxS96EQz3o3ZRSmcgBOapw/gHbN+EKxQ==}
+  /eslint-config-turbo/1.11.2_eslint@8.31.0:
+    resolution: {integrity: sha512-vqbyCH6kCHFoIAWUmGL61c0BfUQNz0XAl2RzAnEkSQ+PLXvEvuV2HsvL51UOzyyElfJlzZuh9T4BvUqb5KR9Eg==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
       eslint: 8.31.0
-      eslint-plugin-turbo: 1.10.15_eslint@8.31.0
+      eslint-plugin-turbo: 1.11.2_eslint@8.31.0
     dev: true
 
   /eslint-doc-generator/1.4.3_eslint@8.45.0:
@@ -19488,8 +19488,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-turbo/1.10.15_eslint@8.31.0:
-    resolution: {integrity: sha512-Tv4QSKV/U56qGcTqS/UgOvb9HcKFmWOQcVh3HEaj7of94lfaENgfrtK48E2CckQf7amhKs1i+imhCsNCKjkQyA==}
+  /eslint-plugin-turbo/1.11.2_eslint@8.31.0:
+    resolution: {integrity: sha512-U6DX+WvgGFiwEAqtOjm4Ejd9O4jsw8jlFNkQi0ywxbMnbiTie+exF4Z0F/B1ajtjjeZkBkgRnlU+UkoraBN+bw==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
