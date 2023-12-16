@@ -28,7 +28,7 @@
   "dependencies": {
     "@octokit/request": "^6.2.5",
     "@octokit/request-error": "^4.0.1",
-    "@octokit/webhooks": "^10.4.0",
+    "@octokit/webhooks": "^10.9.2",
     "@trigger.dev/integration-kit": "workspace:^2.2.0",
     "@trigger.dev/sdk": "workspace:^2.2.0",
     "octokit": "^2.0.14",
